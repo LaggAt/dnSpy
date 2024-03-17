@@ -1,0 +1,199 @@
+repo_name: LaggAt/dnSpy
+report_id: 17ca050f3889a612a618ae536bb7c11b
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T13:50:21+00:00'
+requested_by: wtfsck
+provider: github
+branch: master
+detected_tools_count: 15
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/LaggAt/dnSpy
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/dnSpy/dnSpy/dnSpy.csproj
+  detection_source: dnSpy/dnSpy/dnSpy.csproj
+  last_updated_by: '0xd4d'
+  last_updated_on: 2020-11-11 16:15:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LaggAt/dnSpy
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: '0xd4d'
+  last_updated_on: 2020-11-12 12:21:24.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/dnSpy/dnSpy/dnSpy.csproj
+  detection_source: dnSpy/dnSpy/dnSpy.csproj
+  last_updated_by: de4dot
+  last_updated_on: 2016-04-25 05:06:45.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/dnSpy.sln
+  detection_source: dnSpy.sln
+  last_updated_by: de4dot
+  last_updated_on: 2019-09-23 19:58:45.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/LaggAt/dnSpy
+  detection_source: Repo Metadata
+- name: Microsoft.Build.Framework
+  description: This package contains the Microsoft.Build.Framework assembly which
+    is a common assembly used by other MSBuild assemblies
+  package_url: https://www.nuget.org/Microsoft.Build.Framework
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13422/default_9b520b7c258654c414831abb72568e430492595c.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/Build/ConvertToNetstandardReferences/ConvertToNetstandardReferences.csproj
+  detection_source: Build/ConvertToNetstandardReferences/ConvertToNetstandardReferences.csproj
+  last_updated_by: de4dot
+  last_updated_on: 2019-05-30 13:11:06.000000000 Z
+- name: Microsoft.Build.Utilities.Core
+  description: This package contains the Microsoft.Build.Utilities assembly which
+    is used to implement custom MSBuild tasks
+  package_url: https://www.nuget.org/Microsoft.Build.Utilities.Core
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13293/default_1e1f93823dcbf467a805adfd578c74f8f54c6a4e.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/Build/ConvertToNetstandardReferences/ConvertToNetstandardReferences.csproj
+  detection_source: Build/ConvertToNetstandardReferences/ConvertToNetstandardReferences.csproj
+  last_updated_by: de4dot
+  last_updated_on: 2019-05-30 13:11:06.000000000 Z
+- name: Microsoft.CodeAnalysis.CSharp.Features
+  description: ".NET Compiler Platform"
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.CSharp.Features
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14547/default_8cc049a431381a977f6d2527a0530d69d5056b9a.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/dnSpy/Roslyn/dnSpy.Roslyn.CSharp.EditorFeatures/dnSpy.Roslyn.CSharp.EditorFeatures.csproj
+  detection_source: dnSpy/Roslyn/dnSpy.Roslyn.CSharp.EditorFeatures/dnSpy.Roslyn.CSharp.EditorFeatures.csproj
+  last_updated_by: de4dot
+  last_updated_on: 2019-09-04 21:08:12.000000000 Z
+- name: Microsoft.CodeAnalysis.CSharp.Scripting
+  description: Microsoft .NET Compiler Platform
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.CSharp.Scripting
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13259/default_0e6336285a2ac0713cff413264705f5aa2f348a1.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/Extensions/dnSpy.Scripting.Roslyn/dnSpy.Scripting.Roslyn.csproj
+  detection_source: Extensions/dnSpy.Scripting.Roslyn/dnSpy.Scripting.Roslyn.csproj
+  last_updated_by: de4dot
+  last_updated_on: 2019-09-04 21:08:12.000000000 Z
+- name: Microsoft.CodeAnalysis.Features
+  description: ".NET Compiler Platform"
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.Features
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15754/default_e1e207422f62fa05051b7f552e5b3b289833ef03.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/dnSpy/Roslyn/dnSpy.Roslyn.EditorFeatures/dnSpy.Roslyn.EditorFeatures.csproj
+  detection_source: dnSpy/Roslyn/dnSpy.Roslyn.EditorFeatures/dnSpy.Roslyn.EditorFeatures.csproj
+  last_updated_by: de4dot
+  last_updated_on: 2019-09-04 21:08:12.000000000 Z
+- name: Microsoft.DiaSymReader.Native
+  description: Native implementation of PDB file reader and writer
+  package_url: https://www.nuget.org/Microsoft.DiaSymReader.Native
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15365/default_c205f706b223eb4e8b7eef70baf0ab72bc3c269f.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/dnSpy/dnSpy/dnSpy.csproj
+  detection_source: dnSpy/dnSpy/dnSpy.csproj
+  last_updated_by: '0xd4d'
+  last_updated_on: 2020-11-11 16:15:52.000000000 Z
+- name: Microsoft.Diagnostics.Runtime
+  description: ClrMD is a set of advanced APIs for programmatically inspecting a crash
+    dump of a .NET program much in the same way that the SOS Debugging Extensions
+  package_url: https://www.nuget.org/Microsoft.Diagnostics.Runtime
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15557/default_d95880fcbb6ce6e2fa04f78442c3338399b00365.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/Extensions/dnSpy.Debugger/dnSpy.Debugger.DotNet.CorDebug/dnSpy.Debugger.DotNet.CorDebug.csproj
+  detection_source: Extensions/dnSpy.Debugger/dnSpy.Debugger.DotNet.CorDebug/dnSpy.Debugger.DotNet.CorDebug.csproj
+  last_updated_by: de4dot
+  last_updated_on: 2019-09-04 21:08:12.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/LaggAt/dnSpy/blob/master/Extensions/dnSpy.Debugger/AppHostInfoGenerator/AppHostInfoGenerator.csproj
+  detection_source: Extensions/dnSpy.Debugger/AppHostInfoGenerator/AppHostInfoGenerator.csproj
+  last_updated_by: de4dot
+  last_updated_on: 2019-09-04 21:08:12.000000000 Z
